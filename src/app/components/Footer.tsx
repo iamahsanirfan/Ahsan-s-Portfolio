@@ -26,7 +26,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-6 text-center text-sm text-gray-500">
-          <p>Built with Next.js, Tailwind CSS, and ❤️</p>
+          <p>Built with Next.js, Tailwind CSS, and <span role="img" aria-label="love">❤️</span></p>
         </div>
       </div>
     </footer>

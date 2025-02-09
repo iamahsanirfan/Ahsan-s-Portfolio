@@ -6,7 +6,7 @@ export default function Contact() {
     <section className="container mx-auto px-6 py-16">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold mb-12 bg-gradient-to-r from-red-600 to-red-400 bg-clip-text text-transparent">
-          Let's Connect
+          Let&apos;s Connect
         </h2>
 
         <div className="grid md:grid-cols-2 gap-12">
@@ -64,7 +64,10 @@ export default function Contact() {
                 className="w-full bg-black/50 border border-red-600/20 rounded-lg px-4 py-3 focus:outline-none focus:border-red-600"
               />
             </div>
-            <button className="w-full bg-red-600 hover:bg-red-700 py-3 rounded-lg transition-colors">
+            <button 
+              type="submit"
+              className="w-full bg-red-600 hover:bg-red-700 py-3 rounded-lg transition-colors"
+            >
               Send Message
             </button>
           </form>
